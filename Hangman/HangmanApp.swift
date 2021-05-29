@@ -11,7 +11,8 @@ import SwiftUI
 struct HangmanApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let engine=hmEngine()
+            ContentView(engine: engine)
         }
     }
 }
