@@ -10,8 +10,24 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var engine: hmEngine
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing:0) {
+            Text("Hangman")
+                .font(.largeTitle)
+                .bold()
+                .padding(.top,20)
+            Image(engine.currentImage)
+                .resizable()
+                .scaledToFit()
+                .padding(.top,15)
+            Spacer()
+            Text("Guess The Word")
+                .font(.system(size: 32, weight: .semibold, design: .default))
+            guessSpaces(str: "S_R_H")
+                .padding(.horizontal,32)
+                .padding(.bottom,27)
+            keyboard(engine: engine)
+                .padding(.bottom,40)
+        }
     }
 }
 

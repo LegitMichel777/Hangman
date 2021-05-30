@@ -8,6 +8,7 @@
 import Foundation
 
 class hmEngine: ObservableObject {
+    @Published var currentImage="HM-Complete"
     func handleInput(_ keyPressed: String) {
         print("Handle the input \(keyPressed)")
     }

@@ -13,6 +13,8 @@
 		F0CCAA8F2662884C00A42F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CCAA8E2662884C00A42F78 /* Preview Assets.xcassets */; };
 		F0CCAA97266288AA00A42F78 /* keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA96266288AA00A42F78 /* keyboard.swift */; };
 		F0CCAA99266288B200A42F78 /* hmengine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA98266288B200A42F78 /* hmengine.swift */; };
+		F0CCAA9B2663283E00A42F78 /* guessSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */; };
+		F0CCAA9D2663536600A42F78 /* animatedCheckmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F0CCAA902662884C00A42F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0CCAA96266288AA00A42F78 /* keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboard.swift; sourceTree = "<group>"; };
 		F0CCAA98266288B200A42F78 /* hmengine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hmengine.swift; sourceTree = "<group>"; };
+		F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessSpaces.swift; sourceTree = "<group>"; };
+		F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatedCheckmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				F0CCAA872662884000A42F78 /* HangmanApp.swift */,
 				F0CCAA892662884000A42F78 /* ContentView.swift */,
+				F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */,
 				F0CCAA96266288AA00A42F78 /* keyboard.swift */,
+				F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */,
 				F0CCAA98266288B200A42F78 /* hmengine.swift */,
 				F0CCAA8B2662884C00A42F78 /* Assets.xcassets */,
 				F0CCAA902662884C00A42F78 /* Info.plist */,
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CCAA9D2663536600A42F78 /* animatedCheckmark.swift in Sources */,
 				F0CCAA99266288B200A42F78 /* hmengine.swift in Sources */,
 				F0CCAA97266288AA00A42F78 /* keyboard.swift in Sources */,
 				F0CCAA8A2662884000A42F78 /* ContentView.swift in Sources */,
+				F0CCAA9B2663283E00A42F78 /* guessSpaces.swift in Sources */,
 				F0CCAA882662884000A42F78 /* HangmanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
