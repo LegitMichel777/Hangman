@@ -15,6 +15,7 @@
 		F0CCAA99266288B200A42F78 /* hmengine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA98266288B200A42F78 /* hmengine.swift */; };
 		F0CCAA9B2663283E00A42F78 /* guessSpaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */; };
 		F0CCAA9D2663536600A42F78 /* animatedCheckmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */; };
+		F0CCAA9F2663556F00A42F78 /* animatedXmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCAA9E2663556F00A42F78 /* animatedXmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F0CCAA98266288B200A42F78 /* hmengine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hmengine.swift; sourceTree = "<group>"; };
 		F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessSpaces.swift; sourceTree = "<group>"; };
 		F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatedCheckmark.swift; sourceTree = "<group>"; };
+		F0CCAA9E2663556F00A42F78 /* animatedXmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animatedXmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F0CCAA9A2663283E00A42F78 /* guessSpaces.swift */,
 				F0CCAA96266288AA00A42F78 /* keyboard.swift */,
 				F0CCAA9C2663536600A42F78 /* animatedCheckmark.swift */,
+				F0CCAA9E2663556F00A42F78 /* animatedXmark.swift */,
 				F0CCAA98266288B200A42F78 /* hmengine.swift */,
 				F0CCAA8B2662884C00A42F78 /* Assets.xcassets */,
 				F0CCAA902662884C00A42F78 /* Info.plist */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0CCAA9D2663536600A42F78 /* animatedCheckmark.swift in Sources */,
+				F0CCAA9F2663556F00A42F78 /* animatedXmark.swift in Sources */,
 				F0CCAA99266288B200A42F78 /* hmengine.swift in Sources */,
 				F0CCAA97266288AA00A42F78 /* keyboard.swift in Sources */,
 				F0CCAA8A2662884000A42F78 /* ContentView.swift in Sources */,

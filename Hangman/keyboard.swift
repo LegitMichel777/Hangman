@@ -29,8 +29,16 @@ struct DetermineWidth: View {
     }
 }
 
+enum KeyStatus {
+    case enabled
+    case crossedOut
+    case checkmark
+    case disabled
+}
+
 struct indivKey: View {
     var key: String
+    var keyStatus: KeyStatus
     var body: some View {
         ZStack(alignment: .top) {
             RoundedRectangle(cornerRadius: 5)
@@ -57,14 +65,14 @@ struct keyboard: View {
         VStack(spacing: betweenRowDiff) {
             HStack(spacing:betweenKeyDiff) {
                 ForEach((0..<keyboardLayout[0].count)) { index2 in
-                    indivKey(key: keyboardLayout[0][index2])
+                    indivKey(key: keyboardLayout[0][index2], keyStatus: .enabled)
                         .overlay(DetermineWidth())
                 }
             }
             ForEach((1..<keyboardLayout.count), id: \.self) { index1 in
                 HStack(spacing: betweenKeyDiff) {
                     ForEach((0..<keyboardLayout[index1].count)) { index2 in
-                        indivKey(key: keyboardLayout[index1][index2])
+                        indivKey(key: keyboardLayout[index1][index2], keyStatus: .enabled)
                             .frame(width:maxWidth)
                     }
                 }
